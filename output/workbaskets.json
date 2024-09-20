@@ -1,0 +1,29 @@
+{
+  "workbaskets": {
+    "default": {
+      "id": "default",
+      "tasks": [
+        {
+          "id": "8c2a08ef-264c-4224-a8ba-37f05792ad20",
+          "state_id": "task_one",
+          "process_instance_id": "0005e5dc-c9d9-49f6-a9d8-2881223cfacb"
+        },
+        {
+          "id": "aa355728-7862-4e17-81da-d33c8d656410",
+          "state_id": "task_two",
+          "process_instance_id": "0005e5dc-c9d9-49f6-a9d8-2881223cfacb"
+        }
+      ]
+    },
+    "technical_hold": {
+      "id": "technical_hold",
+      "tasks": [
+        {
+          "id": "3bcd8d1c-ce4d-44a1-af1b-a8b994576312",
+          "state_id": "task_two",
+          "process_instance_id": "0005e5dc-c9d9-49f6-a9d8-2881223cfacb"
+        }
+      ]
+    }
+  }
+}

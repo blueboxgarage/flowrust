@@ -1,0 +1,17 @@
+[package]
+name = "go2-rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Max Garces"]
+description = "A Rust-based workflow engine mimicking Flowret"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1", features = ["serde", "v4"] }
+log = "0.4"
+env_logger = "0.9"
+thiserror = "1.0"
+
+[dev-dependencies]

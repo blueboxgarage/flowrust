@@ -1,0 +1,43 @@
+{
+  "id": "38ac7bec-7ee3-4f76-b759-0b8133b29059",
+  "definition": {
+    "id": "sample_journey",
+    "states": [
+      {
+        "id": "start",
+        "state_type": "Start"
+      },
+      {
+        "id": "task_one",
+        "state_type": "Task"
+      },
+      {
+        "id": "task_two",
+        "state_type": "Task"
+      },
+      {
+        "id": "end",
+        "state_type": "End"
+      }
+    ],
+    "transitions": [
+      {
+        "from_state": "start",
+        "to_state": "task_one",
+        "condition": null
+      },
+      {
+        "from_state": "task_one",
+        "to_state": "task_two",
+        "condition": null
+      },
+      {
+        "from_state": "task_two",
+        "to_state": "end",
+        "condition": null
+      }
+    ]
+  },
+  "current_state": "end",
+  "variables": {}
+}
