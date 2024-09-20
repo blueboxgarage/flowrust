@@ -1,8 +1,9 @@
-# go2-rust
+# flowrust
 
-`go2-rust` is a Rust-based workflow engine inspired by the Flowret project.
+`flowrust` is a Rust-based workflow engine inspired by the unify-flowret project. (https://github.com/blueboxgarage/unify-flowret)
+
 It allows you to define and execute business processes using state machines and workbasket routing.
-The main goal of this project is to experiment with rust-language and seek performance benefits.
+The main goal of this project is to experiment with rust-language and seek performance benefits in open-source bpm.
 ## Features
 
 - **Process Definitions**: Define processes in JSON format.
